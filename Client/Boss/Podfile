@@ -1,4 +1,5 @@
 platform :ios, '7.0'
+target "Boss" do
 pod "SVProgressHUD"
 pod "Reachability"
 pod "SDWebImage"
@@ -8,3 +9,4 @@ pod "AFNetworking”
 pod "LazyTableView"
 pod "LazyPageScrollView"
 pod "RunTrace"
+end

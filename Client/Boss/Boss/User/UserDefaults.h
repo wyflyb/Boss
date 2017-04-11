@@ -15,6 +15,8 @@
 @property (strong,nonatomic)    NSMutableDictionary *dicPower;
 -(NSString*)level:(NSString*)type;
 -(NSInteger)money:(NSString*)levelName;
+
+
 -(BOOL)isFirstLogin;
 +(instancetype)sharedInstance;
 -(BOOL)isAvailable;
